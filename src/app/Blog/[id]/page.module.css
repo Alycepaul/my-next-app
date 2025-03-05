@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.avatar{
+    object-fit: cover;
+    border-radius:50%; 
+}
+
+.author{
+    margin-top: 10px;
+    position: relative;
+    /* gap: 20px; */
+    align-items: center;
+}
+.username{
+   white-space: nowrap;
+   font-size: 16px;
+   font-weight: bold;
+
+}
+
+.image{
+    height: 400px;
+    height: 250px;
+    object-fit: cover;
+  
+}
+.imgContainer{
+    flex: 1;
+    height: 250px;
+    position: relative;
+}
+.top{
+    display: flex;
+    gap: 20px;
+}
+
+ .content{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #999;
+    text-align: justify;
+ }
+ .info{
+    display: flex;
+    flex-direction: column;
+    gap: 20x;
+    flex: 1;
+ }
+ .desc{
+    padding-top: 20px;
+ }
